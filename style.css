@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    width: auto;
+}
+
+html, body, .sidebar {
+    height: 100%;
+    margin: 0;
+}
+
+.sidebar {
+    height: 100%;
+    max-width: 500px;
+    display: flex;
+}
+
+.logo {
+    background-color: rgba(245, 245, 245, 0.3);
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+}
+
+.pig-text {
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    left: 140px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+form > div {
+    flex: 1;
+}
+
+.right-top {
+    background-color: blue;
+}
+
+.right-middle {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 200px;
+}
+
+.right-bottom {
+    background-color: yellow;
+}
+
+#bacon {
+    z-index: -1;
+    position: relative;
+}
